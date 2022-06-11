@@ -19,7 +19,6 @@ To run the code, you need the following dependencies:
 
 
 
-```
 ### ogbl-biokg
 ```bash
 cd biokg && sh examples.sh
