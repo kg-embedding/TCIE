@@ -2,7 +2,7 @@
 
 Code for paper Knowledge Graph Embedding via Triplet Component Interactions
 
-This implementation of TCIE for [**Open Graph Benchmak**](https://arxiv.org/abs/2005.00687) datasets (ogbl-wikikg and ogbl-biokg) is based on [**OGB**](https://github.com/snap-stanford/ogb). Thanks for their contributions.
+This implementation of TCIE for [**Open Graph Benchmak**](https://arxiv.org/abs/2005.00687) datasets (ogbl-wikikg2 and ogbl-biokg) is based on [**OGB**](https://github.com/snap-stanford/ogb). Thanks for their contributions.
 
 
 ## Setup
