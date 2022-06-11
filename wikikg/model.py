@@ -70,7 +70,7 @@ class KGEModel(nn.Module):
                 b=self.embedding_range.item()
             )
 
-        if model_name not in ['TransE', 'DistMult', 'ComplEx', 'RotatE', 'BSCE', 'TransH', 'RotatEv2']:
+        if model_name not in ['TransE', 'DistMult', 'ComplEx', 'RotatE', 'TCIE', 'TransH', 'RotatEv2']:
             raise ValueError('model %s not supported' % model_name)
 
         if model_name == 'RotatE' and (not double_entity_embedding or double_relation_embedding):
@@ -171,7 +171,7 @@ class KGEModel(nn.Module):
             'DistMult': self.DistMult,
             'ComplEx': self.ComplEx,
             'RotatE': self.RotatE,
-            'BSCE': self.BSEC,
+            'TCIE': self.TCIE,
             'TransH': self.TransH
         }
 
@@ -249,7 +249,7 @@ class KGEModel(nn.Module):
 
     
 
-    def BSCE(self, head, relation, tail, mode):
+    def TCIE(self, head, relation, tail, mode):
 
 
 
@@ -269,7 +269,7 @@ class KGEModel(nn.Module):
         score1 = head1 * re_head - tail1 * re_tail
         score2 = head2 * re_tail - tail2
         score3 = tail2 * re_head - head2
-        #
+        
         a = 0.6
         b = 0.2
         c = 0.2
