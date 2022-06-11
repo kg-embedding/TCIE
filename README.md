@@ -62,4 +62,8 @@ YAGO3-10:
 bash run.sh train TCIE YAGO3-10 0 0 1024 512 500 17.0 1.0 0.0003 100000 4
 ```
 
+## Thanks
+
+Many thanks to the GitHub repositories of [PairRE](https://github.com/alipay/KnowledgeGraphEmbeddingsViaPairedRelationVectors_PairRE). Part of our codes are modified based on their codes.
+
 
