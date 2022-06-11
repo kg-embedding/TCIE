@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ########################################################################
-# BSEC
+# TCIE
 # 200
 python run.py --do_train --cuda --do_valid --do_test --evaluate_train \
             --model BSEC -n 128 -b 1024 -d 200 -g 6 -a 1.0 -adv  \
