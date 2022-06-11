@@ -27,7 +27,7 @@ cd biokg && sh examples.sh
 ### ogbl-wikikg2
 
 ```bash
-cd wikikg2 && sh examples.sh
+cd wikikg && sh examples.sh
 ```
 
 The details of the optional hyperparameters can be found in examples.sh.
