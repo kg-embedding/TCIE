@@ -45,10 +45,13 @@ These experiments are based on this repository（https://github.com/DeepGraphLea
 Commands to reproduce the reuslts are:
 
 FB15k-237
+
 bash run.sh train TCIE FB15k-237 0 0 1024 256 1500 4.0 1.0 0.00005 100000 16 
 
 FB15k:
+```
 bash run.sh train TCIE FB15k 0 0 1024 256 2500 17.0 1.0 0.0001 150000 16 
+```
 
 WN18:
 bash run.sh train TCIE WN18 0 0 512 1024 500 8.0 0.5 0.0001 80000 8 
