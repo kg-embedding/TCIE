@@ -17,10 +17,7 @@ To run the code, you need the following dependencies:
 
 ## Running the code 
 
-### ogbl-wikikg
 
-```bash
-cd wikikg && sh examples.sh
 
 ```
 ### ogbl-biokg
@@ -29,11 +26,9 @@ cd biokg && sh examples.sh
 ```
 
 ### ogbl-wikikg2
-Please update ogb package to version 1.2.4. 
-The hyperparameters are same to the experiments in ogbl-wikikg.
 
 ```bash
-cd wikikg && sh examples.sh
+cd wikikg2 && sh examples.sh
 ```
 
 The details of the optional hyperparameters can be found in examples.sh.
