@@ -155,7 +155,7 @@ class KGEModel(nn.Module):
             'DistMult': self.DistMult,
             'ComplEx': self.ComplEx,
             'RotatE': self.RotatE,
-            'BSCE': self.BSCE,
+            'TCIE': self.BSCE,
         }
 
         if self.model_name in model_func:
