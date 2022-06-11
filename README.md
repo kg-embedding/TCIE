@@ -38,7 +38,7 @@ cd wikikg && sh examples.sh
 
 The details of the optional hyperparameters can be found in examples.sh.
 
-Experiments of FB15k, FB15k-237， WN18，and YAGO3-10 are based on this repository（https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding）. We add the score function of TCIE to this repository directly.
+Experiments of FB15k, FB15k-237， WN18，and YAGO3-10 are based on this [repository](https://github.com/DeepGraphLearning/KnowledgeGraphEmbedding). We add the score function of TCIE to this repository directly.
 
 Commands to reproduce the reuslts are:
 
